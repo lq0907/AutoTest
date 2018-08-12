@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="apiSuite">
+    <test name="apiTest">
+        <classes>
+            <class name="com.test.extent.demo.TestMethodsDemo">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="logDemo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.test.extent.demo.ExtentTestNGIReporterListener" />
+    </listeners>
+</suite>
